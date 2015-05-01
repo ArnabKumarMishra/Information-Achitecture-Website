@@ -1,0 +1,25 @@
+#navbarbrand{
+font-weight: 900; 
+}		
+body{
+background: #EBEBEB;
+}
+
+#carousel{
+padding: 80px;
+}
+
+.footerStyle{
+	background-color: #101010;
+	opacity: 0.9;
+	color: #FFF;
+}
+
+#ceomsg{
+	text-align: right;
+}
+
+.footerStyle p{
+text-align: center;
+line-height: 100%;
+}
