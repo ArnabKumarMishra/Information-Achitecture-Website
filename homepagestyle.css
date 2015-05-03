@@ -5,19 +5,32 @@
 
 body{
 	background: #EBEBEB;
+	
 }
+
 
 #carousel{
 	padding-top: 80px;
 	padding-bottom: 10px;
 }
 
+#ceoname{
+	font-weight: bold;
+	text-align: left;
+    font-family:'Lato',serif;     
+}
 
 p{
  	text-align: justify;
+ 	padding-bottom: 10px;
+	font-family:'Lato',serif;     /*Lato and Roboto are google fonts taken for well-designed typography*/
+	font-size: 18px;
+	font-weight: normal;
 }
 
 .pic {
+	width: 160px;
+	height: 200px;
     margin: 5% auto 10% 10%;
 }
 
@@ -29,6 +42,7 @@ p{
 	padding-bottom: 10px;
 }
 #social{
+
     padding-left: 47%;
     padding-bottom: 10px;
 }
@@ -38,4 +52,65 @@ color: white;
 .footerStyle p{
 	text-align: center;
 	margin-top: 1%;
+}
+
+    /* Extra Small Devices, Phones */ 
+@media screen and (max-width: 768px) {
+    p{
+     font-size: 16px;
+  }
+}
+
+/* about us page css rules start here */
+
+/* for students page css rules start here */
+#manageBorder{
+    padding-bottom: 50px;
+}
+
+#manageHeading{
+	padding-bottom: 10px;
+}
+
+#ikopusa{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#forstudentsHeading{
+	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+.forstudentsPackages{
+	width: 510px;
+	height: 310px;
+	padding-bottom: 10px;
+
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+.forstudentsPackages{
+	width: 230px;
+	height: 170px;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+.forstudentsPackages{
+	width: 270px;
+	height: 210px;
+	padding-bottom: 10px;
+
+  }
+}
+
+#social_forstudents{
+	padding-left: 47%;
+    padding-top: 10px;
 }
